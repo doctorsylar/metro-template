@@ -5,7 +5,7 @@
     text-decoration: none;
     font-family: "Open Sans";
 }
-a {
+a, a:hover {
     text-decoration: none;
 }
 body {
