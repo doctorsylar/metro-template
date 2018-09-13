@@ -1,6 +1,5 @@
 $(function () {
-    $('#abc').click(function () {
-        console.log(document.querySelector('#menu-placeholder').childElementCount);
-        // console.log($('menu-placeholder').target.childElementCount);
+    $('div.menu-toggler > i').click(function () {
+        $('#menu-placeholder').toggleClass('show');
     });
 });

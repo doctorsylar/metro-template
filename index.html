@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Metro homepage</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <header>
-    <div class="header-container">
+    <div class="header-container container-fluid col-sm-12 col-md-11 col-lg-10 col-xl-9">
         <div class="logo">
-            <span>Metr</span><i class="material-icons">fiber_manual_record</i
+            <span>Metr</span><i class="fas fa-circle"></i
         ><span>Blog</span>
         </div>
-        <nav class="header-nav" id="nav-bar">
+        <nav class="header-nav d-md-flex" id="nav-bar">
             <ul>
                 <li class="nav-item">
                     <a href="#">Home</a>
@@ -29,22 +28,40 @@
             </ul>
         </nav>
         <div class="menu-toggler">
-            <i class="material-icons"></i>
+            <i class="fas fa-bars"></i>
         </div>
     </div>
-    <div id="menu-placeholder">
+    <div id="menu-placeholder" class="d-md-none">
+        <nav class="header-nav" id="mobile-nav">
+            <ul>
+                <li class="nav-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Pages</a>
+                </li>
+            </ul>
+        </nav>
 
     </div>
 </header>
 <main>
-    <button id="abc">ABC</button>
 
 </main>
 <footer>
 
 </footer>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+<link href="./bootstrap/bootstrap-grid.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+<link rel="stylesheet" href="./css/all.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="./script.js"></script>
 </body>
