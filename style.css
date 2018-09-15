@@ -225,7 +225,7 @@ footer .socials {
         flex-direction: row;
     }
     main .lower-container .main-block .articles-container {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
     main .lower-container aside {
         flex-direction: row;
@@ -247,6 +247,9 @@ footer .socials {
     }
     main .lower-container .carousel-container .arrows {
         display: flex;
+    }
+    main .lower-container .main-block .articles-container {
+        grid-template-columns: auto auto auto;
     }
     main .lower-container aside {
         flex-direction: column;
